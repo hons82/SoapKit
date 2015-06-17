@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.1'
+
+pod 'SoapKit',:path => './../../'
+pod 'SoapKit/Mapping',:path => './../../'

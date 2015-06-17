@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		99D0C2DF19B5AD770076FB26 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99D0C2E019B5AD780076FB26 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				99D0C2E519B5AD950076FB26 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				99D0C2E419B5AD830076FB26 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		966794BD05136FE199C234E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358DB53DFDEAEDA8A5E69A7 /* libPods.a */; };
+		99421ECD1B300D2F0024594B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 996191FC19C1A03F00C1FEA0 /* libxml2.dylib */; };
+		996191F919C19F8E00C1FEA0 /* SKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 996191F719C19F8E00C1FEA0 /* SKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996191FA19C19F8E00C1FEA0 /* SKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 996191F819C19F8E00C1FEA0 /* SKRequest.m */; };
+		9961920119C1A08F00C1FEA0 /* SKData.h in Headers */ = {isa = PBXBuildFile; fileRef = 996191FE19C1A08F00C1FEA0 /* SKData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9961920219C1A08F00C1FEA0 /* SKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 996191FF19C1A08F00C1FEA0 /* SKData.m */; };
+		9961920319C1A08F00C1FEA0 /* SKData+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9961920019C1A08F00C1FEA0 /* SKData+Private.h */; };
+		9961920F19C1AD7E00C1FEA0 /* SoapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9961920E19C1AD7E00C1FEA0 /* SoapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9961921019C1ADA200C1FEA0 /* SoapKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9961920E19C1AD7E00C1FEA0 /* SoapKit.h */; };
+		9961921319C1B1B400C1FEA0 /* SKService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9961921119C1B1B400C1FEA0 /* SKService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9961921419C1B1B400C1FEA0 /* SKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961921219C1B1B400C1FEA0 /* SKService.m */; };
+		9963A1E419F658DC007C282B /* SKDataObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 9963A1E219F658DC007C282B /* SKDataObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9963A1E519F658DC007C282B /* SKDataObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9963A1E319F658DC007C282B /* SKDataObjectMapping.m */; };
+		99B67E111B0CE5BC00A8957E /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B67E0F1B0CE5BC00A8957E /* GDataXMLNode.h */; };
+		99B67E121B0CE5BC00A8957E /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B67E101B0CE5BC00A8957E /* GDataXMLNode.m */; };
+		99B8AEFA1B316D9200B22550 /* SoapKitMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B8AEF91B316D9200B22550 /* SoapKitMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BA8E6E19EE941F003723F8 /* SKParserConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E6C19EE941F003723F8 /* SKParserConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BA8E6F19EE941F003723F8 /* SKParserConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E6D19EE941F003723F8 /* SKParserConfiguration.m */; };
+		99BA8E7919EE9521003723F8 /* SKDynamicAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E7119EE9521003723F8 /* SKDynamicAttribute.h */; };
+		99BA8E7A19EE9521003723F8 /* SKDynamicAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E7219EE9521003723F8 /* SKDynamicAttribute.m */; };
+		99BA8E7B19EE9521003723F8 /* SKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E7319EE9521003723F8 /* SKObjectMapping.h */; };
+		99BA8E7C19EE9521003723F8 /* SKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E7419EE9521003723F8 /* SKObjectMapping.m */; };
+		99BA8E7D19EE9521003723F8 /* SKArrayMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E7519EE9521003723F8 /* SKArrayMapping.h */; };
+		99BA8E7E19EE9521003723F8 /* SKArrayMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E7619EE9521003723F8 /* SKArrayMapping.m */; };
+		99BA8E7F19EE9521003723F8 /* SKPropertyAggregator.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E7719EE9521003723F8 /* SKPropertyAggregator.h */; };
+		99BA8E8019EE9521003723F8 /* SKPropertyAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E7819EE9521003723F8 /* SKPropertyAggregator.m */; };
+		99BA8E8F19EE9C2A003723F8 /* SKNSArrayConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8219EE9C2A003723F8 /* SKNSArrayConverter.h */; };
+		99BA8E9019EE9C2A003723F8 /* SKNSArrayConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E8319EE9C2A003723F8 /* SKNSArrayConverter.m */; };
+		99BA8E9119EE9C2A003723F8 /* SKNSSetConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8419EE9C2A003723F8 /* SKNSSetConverter.h */; };
+		99BA8E9219EE9C2A003723F8 /* SKNSSetConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E8519EE9C2A003723F8 /* SKNSSetConverter.m */; };
+		99BA8E9319EE9C2A003723F8 /* SKNSDateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8619EE9C2A003723F8 /* SKNSDateConverter.h */; };
+		99BA8E9419EE9C2A003723F8 /* SKNSDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E8719EE9C2A003723F8 /* SKNSDateConverter.m */; };
+		99BA8E9519EE9C2A003723F8 /* SKNSURLConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8819EE9C2A003723F8 /* SKNSURLConverter.h */; };
+		99BA8E9619EE9C2A003723F8 /* SKNSURLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E8919EE9C2A003723F8 /* SKNSURLConverter.m */; };
+		99BA8E9719EE9C2A003723F8 /* SKSimpleConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8A19EE9C2A003723F8 /* SKSimpleConverter.h */; };
+		99BA8E9819EE9C2A003723F8 /* SKSimpleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E8B19EE9C2A003723F8 /* SKSimpleConverter.m */; };
+		99BA8E9919EE9C2A003723F8 /* SKValueConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8C19EE9C2A003723F8 /* SKValueConverter.h */; };
+		99BA8E9A19EE9C2A003723F8 /* SKGenericConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E8D19EE9C2A003723F8 /* SKGenericConverter.h */; };
+		99BA8E9B19EE9C2A003723F8 /* SKGenericConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E8E19EE9C2A003723F8 /* SKGenericConverter.m */; };
+		99BA8EA119EE9C97003723F8 /* SKCustomInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E9D19EE9C97003723F8 /* SKCustomInitialize.h */; };
+		99BA8EA219EE9C97003723F8 /* SKCustomInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E9E19EE9C97003723F8 /* SKCustomInitialize.m */; };
+		99BA8EA319EE9C97003723F8 /* SKCustomParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8E9F19EE9C97003723F8 /* SKCustomParser.h */; };
+		99BA8EA419EE9C97003723F8 /* SKCustomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8EA019EE9C97003723F8 /* SKCustomParser.m */; };
+		99BA8EAA19EE9DD3003723F8 /* SKReferenceKeyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8EA619EE9DD3003723F8 /* SKReferenceKeyParser.h */; };
+		99BA8EAB19EE9DD3003723F8 /* SKReferenceKeyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8EA719EE9DD3003723F8 /* SKReferenceKeyParser.m */; };
+		99BA8EAC19EE9DD3003723F8 /* SKDictionaryRearranger.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8EA819EE9DD3003723F8 /* SKDictionaryRearranger.h */; };
+		99BA8EAD19EE9DD3003723F8 /* SKDictionaryRearranger.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8EA919EE9DD3003723F8 /* SKDictionaryRearranger.m */; };
+		99BA8EB119EEA092003723F8 /* SKAttributeSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8EAF19EEA092003723F8 /* SKAttributeSetter.h */; };
+		99BA8EB219EEA092003723F8 /* SKAttributeSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8EB019EEA092003723F8 /* SKAttributeSetter.m */; };
+		99BA8EB619EEA16D003723F8 /* SKPropertyFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA8EB419EEA16D003723F8 /* SKPropertyFinder.h */; };
+		99BA8EB719EEA16D003723F8 /* SKPropertyFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8EB519EEA16D003723F8 /* SKPropertyFinder.m */; };
+		99D0C26C19B5A9900076FB26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0C26B19B5A9900076FB26 /* Foundation.framework */; };
+		99D0C27A19B5A9900076FB26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0C27919B5A9900076FB26 /* XCTest.framework */; };
+		99D0C27B19B5A9900076FB26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0C26B19B5A9900076FB26 /* Foundation.framework */; };
+		99D0C28019B5A9900076FB26 /* libSoapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0C26819B5A9900076FB26 /* libSoapKit.a */; };
+		99D0C28619B5A9900076FB26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D0C28419B5A9900076FB26 /* InfoPlist.strings */; };
+		99D0C28819B5A9900076FB26 /* SoapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0C28719B5A9900076FB26 /* SoapKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D0C27E19B5A9900076FB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D0C26019B5A9900076FB26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D0C26719B5A9900076FB26;
+			remoteInfo = SoapKit;
+		};
+		99D0C2E319B5AD830076FB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D0C26019B5A9900076FB26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D0C26719B5A9900076FB26;
+			remoteInfo = SoapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99D0C26619B5A9900076FB26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9961921019C1ADA200C1FEA0 /* SoapKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B09F0E05B23677AB5ACDFEC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6358DB53DFDEAEDA8A5E69A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		996191F719C19F8E00C1FEA0 /* SKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRequest.h; sourceTree = "<group>"; };
+		996191F819C19F8E00C1FEA0 /* SKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRequest.m; sourceTree = "<group>"; };
+		996191FC19C1A03F00C1FEA0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		996191FE19C1A08F00C1FEA0 /* SKData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKData.h; sourceTree = "<group>"; };
+		996191FF19C1A08F00C1FEA0 /* SKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKData.m; sourceTree = "<group>"; };
+		9961920019C1A08F00C1FEA0 /* SKData+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKData+Private.h"; sourceTree = "<group>"; };
+		9961920E19C1AD7E00C1FEA0 /* SoapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapKit.h; sourceTree = "<group>"; };
+		9961921119C1B1B400C1FEA0 /* SKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKService.h; sourceTree = "<group>"; };
+		9961921219C1B1B400C1FEA0 /* SKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKService.m; sourceTree = "<group>"; };
+		9963A1E219F658DC007C282B /* SKDataObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDataObjectMapping.h; sourceTree = "<group>"; };
+		9963A1E319F658DC007C282B /* SKDataObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDataObjectMapping.m; sourceTree = "<group>"; };
+		99B67E0F1B0CE5BC00A8957E /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		99B67E101B0CE5BC00A8957E /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		99B8AEF91B316D9200B22550 /* SoapKitMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapKitMapping.h; sourceTree = "<group>"; };
+		99BA8E6C19EE941F003723F8 /* SKParserConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKParserConfiguration.h; sourceTree = "<group>"; };
+		99BA8E6D19EE941F003723F8 /* SKParserConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKParserConfiguration.m; sourceTree = "<group>"; };
+		99BA8E7119EE9521003723F8 /* SKDynamicAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDynamicAttribute.h; sourceTree = "<group>"; };
+		99BA8E7219EE9521003723F8 /* SKDynamicAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDynamicAttribute.m; sourceTree = "<group>"; };
+		99BA8E7319EE9521003723F8 /* SKObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObjectMapping.h; sourceTree = "<group>"; };
+		99BA8E7419EE9521003723F8 /* SKObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObjectMapping.m; sourceTree = "<group>"; };
+		99BA8E7519EE9521003723F8 /* SKArrayMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKArrayMapping.h; sourceTree = "<group>"; };
+		99BA8E7619EE9521003723F8 /* SKArrayMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKArrayMapping.m; sourceTree = "<group>"; };
+		99BA8E7719EE9521003723F8 /* SKPropertyAggregator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPropertyAggregator.h; sourceTree = "<group>"; };
+		99BA8E7819EE9521003723F8 /* SKPropertyAggregator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPropertyAggregator.m; sourceTree = "<group>"; };
+		99BA8E8219EE9C2A003723F8 /* SKNSArrayConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSArrayConverter.h; sourceTree = "<group>"; };
+		99BA8E8319EE9C2A003723F8 /* SKNSArrayConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSArrayConverter.m; sourceTree = "<group>"; };
+		99BA8E8419EE9C2A003723F8 /* SKNSSetConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSSetConverter.h; sourceTree = "<group>"; };
+		99BA8E8519EE9C2A003723F8 /* SKNSSetConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSSetConverter.m; sourceTree = "<group>"; };
+		99BA8E8619EE9C2A003723F8 /* SKNSDateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSDateConverter.h; sourceTree = "<group>"; };
+		99BA8E8719EE9C2A003723F8 /* SKNSDateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSDateConverter.m; sourceTree = "<group>"; };
+		99BA8E8819EE9C2A003723F8 /* SKNSURLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSURLConverter.h; sourceTree = "<group>"; };
+		99BA8E8919EE9C2A003723F8 /* SKNSURLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSURLConverter.m; sourceTree = "<group>"; };
+		99BA8E8A19EE9C2A003723F8 /* SKSimpleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSimpleConverter.h; sourceTree = "<group>"; };
+		99BA8E8B19EE9C2A003723F8 /* SKSimpleConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSimpleConverter.m; sourceTree = "<group>"; };
+		99BA8E8C19EE9C2A003723F8 /* SKValueConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKValueConverter.h; sourceTree = "<group>"; };
+		99BA8E8D19EE9C2A003723F8 /* SKGenericConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGenericConverter.h; sourceTree = "<group>"; };
+		99BA8E8E19EE9C2A003723F8 /* SKGenericConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGenericConverter.m; sourceTree = "<group>"; };
+		99BA8E9D19EE9C97003723F8 /* SKCustomInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomInitialize.h; sourceTree = "<group>"; };
+		99BA8E9E19EE9C97003723F8 /* SKCustomInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomInitialize.m; sourceTree = "<group>"; };
+		99BA8E9F19EE9C97003723F8 /* SKCustomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomParser.h; sourceTree = "<group>"; };
+		99BA8EA019EE9C97003723F8 /* SKCustomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomParser.m; sourceTree = "<group>"; };
+		99BA8EA619EE9DD3003723F8 /* SKReferenceKeyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKReferenceKeyParser.h; sourceTree = "<group>"; };
+		99BA8EA719EE9DD3003723F8 /* SKReferenceKeyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKReferenceKeyParser.m; sourceTree = "<group>"; };
+		99BA8EA819EE9DD3003723F8 /* SKDictionaryRearranger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDictionaryRearranger.h; sourceTree = "<group>"; };
+		99BA8EA919EE9DD3003723F8 /* SKDictionaryRearranger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDictionaryRearranger.m; sourceTree = "<group>"; };
+		99BA8EAF19EEA092003723F8 /* SKAttributeSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAttributeSetter.h; sourceTree = "<group>"; };
+		99BA8EB019EEA092003723F8 /* SKAttributeSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAttributeSetter.m; sourceTree = "<group>"; };
+		99BA8EB419EEA16D003723F8 /* SKPropertyFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPropertyFinder.h; sourceTree = "<group>"; };
+		99BA8EB519EEA16D003723F8 /* SKPropertyFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPropertyFinder.m; sourceTree = "<group>"; };
+		99D0C26819B5A9900076FB26 /* libSoapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSoapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D0C26B19B5A9900076FB26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99D0C26F19B5A9900076FB26 /* SoapKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoapKit-Prefix.pch"; sourceTree = "<group>"; };
+		99D0C27819B5A9900076FB26 /* SoapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D0C27919B5A9900076FB26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99D0C28319B5A9900076FB26 /* SoapKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapKitTests-Info.plist"; sourceTree = "<group>"; };
+		99D0C28519B5A9900076FB26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99D0C28719B5A9900076FB26 /* SoapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapKitTests.m; sourceTree = "<group>"; };
+		E5E0D5B27C28F0D7E4A69C70 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D0C26519B5A9900076FB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99421ECD1B300D2F0024594B /* libxml2.dylib in Frameworks */,
+				99D0C26C19B5A9900076FB26 /* Foundation.framework in Frameworks */,
+				966794BD05136FE199C234E1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D0C27519B5A9900076FB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D0C27A19B5A9900076FB26 /* XCTest.framework in Frameworks */,
+				99D0C28019B5A9900076FB26 /* libSoapKit.a in Frameworks */,
+				99D0C27B19B5A9900076FB26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566AECF36858525680BABC9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E0D5B27C28F0D7E4A69C70 /* Pods.debug.xcconfig */,
+				0B09F0E05B23677AB5ACDFEC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		996191F619C19F6200C1FEA0 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				99B67E0F1B0CE5BC00A8957E /* GDataXMLNode.h */,
+				99B67E101B0CE5BC00A8957E /* GDataXMLNode.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		996191FB19C19F9300C1FEA0 /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				9961921119C1B1B400C1FEA0 /* SKService.h */,
+				9961921219C1B1B400C1FEA0 /* SKService.m */,
+				996191F719C19F8E00C1FEA0 /* SKRequest.h */,
+				996191F819C19F8E00C1FEA0 /* SKRequest.m */,
+				996191FE19C1A08F00C1FEA0 /* SKData.h */,
+				996191FF19C1A08F00C1FEA0 /* SKData.m */,
+				9961920019C1A08F00C1FEA0 /* SKData+Private.h */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		9961920819C1A1A400C1FEA0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				996191F619C19F6200C1FEA0 /* XML */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		99BA8E6B19EE93AD003723F8 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				99B8AEF91B316D9200B22550 /* SoapKitMapping.h */,
+				99BA8EB819EEA189003723F8 /* Categories */,
+				99BA8E8119EE9C0F003723F8 /* Converter */,
+				99BA8EB319EEA158003723F8 /* Finder */,
+				99BA8E7019EE94DE003723F8 /* Mapper */,
+				99BA8E9C19EE9C89003723F8 /* Object */,
+				99BA8EAE19EEA056003723F8 /* Setter */,
+				9963A1E219F658DC007C282B /* SKDataObjectMapping.h */,
+				9963A1E319F658DC007C282B /* SKDataObjectMapping.m */,
+				99BA8E6C19EE941F003723F8 /* SKParserConfiguration.h */,
+				99BA8E6D19EE941F003723F8 /* SKParserConfiguration.m */,
+				99BA8EA519EE9DAD003723F8 /* Util */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		99BA8E7019EE94DE003723F8 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8E7119EE9521003723F8 /* SKDynamicAttribute.h */,
+				99BA8E7219EE9521003723F8 /* SKDynamicAttribute.m */,
+				99BA8E7319EE9521003723F8 /* SKObjectMapping.h */,
+				99BA8E7419EE9521003723F8 /* SKObjectMapping.m */,
+				99BA8E7519EE9521003723F8 /* SKArrayMapping.h */,
+				99BA8E7619EE9521003723F8 /* SKArrayMapping.m */,
+				99BA8E7719EE9521003723F8 /* SKPropertyAggregator.h */,
+				99BA8E7819EE9521003723F8 /* SKPropertyAggregator.m */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		99BA8E8119EE9C0F003723F8 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8E8219EE9C2A003723F8 /* SKNSArrayConverter.h */,
+				99BA8E8319EE9C2A003723F8 /* SKNSArrayConverter.m */,
+				99BA8E8419EE9C2A003723F8 /* SKNSSetConverter.h */,
+				99BA8E8519EE9C2A003723F8 /* SKNSSetConverter.m */,
+				99BA8E8619EE9C2A003723F8 /* SKNSDateConverter.h */,
+				99BA8E8719EE9C2A003723F8 /* SKNSDateConverter.m */,
+				99BA8E8819EE9C2A003723F8 /* SKNSURLConverter.h */,
+				99BA8E8919EE9C2A003723F8 /* SKNSURLConverter.m */,
+				99BA8E8A19EE9C2A003723F8 /* SKSimpleConverter.h */,
+				99BA8E8B19EE9C2A003723F8 /* SKSimpleConverter.m */,
+				99BA8E8C19EE9C2A003723F8 /* SKValueConverter.h */,
+				99BA8E8D19EE9C2A003723F8 /* SKGenericConverter.h */,
+				99BA8E8E19EE9C2A003723F8 /* SKGenericConverter.m */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		99BA8E9C19EE9C89003723F8 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8E9D19EE9C97003723F8 /* SKCustomInitialize.h */,
+				99BA8E9E19EE9C97003723F8 /* SKCustomInitialize.m */,
+				99BA8E9F19EE9C97003723F8 /* SKCustomParser.h */,
+				99BA8EA019EE9C97003723F8 /* SKCustomParser.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		99BA8EA519EE9DAD003723F8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8EA619EE9DD3003723F8 /* SKReferenceKeyParser.h */,
+				99BA8EA719EE9DD3003723F8 /* SKReferenceKeyParser.m */,
+				99BA8EA819EE9DD3003723F8 /* SKDictionaryRearranger.h */,
+				99BA8EA919EE9DD3003723F8 /* SKDictionaryRearranger.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		99BA8EAE19EEA056003723F8 /* Setter */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8EAF19EEA092003723F8 /* SKAttributeSetter.h */,
+				99BA8EB019EEA092003723F8 /* SKAttributeSetter.m */,
+			);
+			path = Setter;
+			sourceTree = "<group>";
+		};
+		99BA8EB319EEA158003723F8 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8EB419EEA16D003723F8 /* SKPropertyFinder.h */,
+				99BA8EB519EEA16D003723F8 /* SKPropertyFinder.m */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		99BA8EB819EEA189003723F8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		99D0C25F19B5A9900076FB26 = {
+			isa = PBXGroup;
+			children = (
+				99D0C26D19B5A9900076FB26 /* SoapKit */,
+				99D0C28119B5A9900076FB26 /* SoapKitTests */,
+				99D0C26A19B5A9900076FB26 /* Frameworks */,
+				99D0C26919B5A9900076FB26 /* Products */,
+				566AECF36858525680BABC9D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		99D0C26919B5A9900076FB26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D0C26819B5A9900076FB26 /* libSoapKit.a */,
+				99D0C27819B5A9900076FB26 /* SoapKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D0C26A19B5A9900076FB26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				996191FC19C1A03F00C1FEA0 /* libxml2.dylib */,
+				99D0C26B19B5A9900076FB26 /* Foundation.framework */,
+				99D0C27919B5A9900076FB26 /* XCTest.framework */,
+				6358DB53DFDEAEDA8A5E69A7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99D0C26D19B5A9900076FB26 /* SoapKit */ = {
+			isa = PBXGroup;
+			children = (
+				99BA8E6B19EE93AD003723F8 /* Mapping */,
+				996191FB19C19F9300C1FEA0 /* Soap */,
+				9961920E19C1AD7E00C1FEA0 /* SoapKit.h */,
+				99D0C26E19B5A9900076FB26 /* Supporting Files */,
+				9961920819C1A1A400C1FEA0 /* Util */,
+			);
+			path = SoapKit;
+			sourceTree = "<group>";
+		};
+		99D0C26E19B5A9900076FB26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D0C26F19B5A9900076FB26 /* SoapKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D0C28119B5A9900076FB26 /* SoapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				99D0C28719B5A9900076FB26 /* SoapKitTests.m */,
+				99D0C28219B5A9900076FB26 /* Supporting Files */,
+			);
+			path = SoapKitTests;
+			sourceTree = "<group>";
+		};
+		99D0C28219B5A9900076FB26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D0C28319B5A9900076FB26 /* SoapKitTests-Info.plist */,
+				99D0C28419B5A9900076FB26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99D0C2DD19B5ACC10076FB26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9961920F19C1AD7E00C1FEA0 /* SoapKit.h in Headers */,
+				996191F919C19F8E00C1FEA0 /* SKRequest.h in Headers */,
+				99BA8E6E19EE941F003723F8 /* SKParserConfiguration.h in Headers */,
+				99B67E111B0CE5BC00A8957E /* GDataXMLNode.h in Headers */,
+				9961920119C1A08F00C1FEA0 /* SKData.h in Headers */,
+				9963A1E419F658DC007C282B /* SKDataObjectMapping.h in Headers */,
+				99B8AEFA1B316D9200B22550 /* SoapKitMapping.h in Headers */,
+				9961921319C1B1B400C1FEA0 /* SKService.h in Headers */,
+				99BA8EAC19EE9DD3003723F8 /* SKDictionaryRearranger.h in Headers */,
+				99BA8E9119EE9C2A003723F8 /* SKNSSetConverter.h in Headers */,
+				99BA8EA119EE9C97003723F8 /* SKCustomInitialize.h in Headers */,
+				99BA8EAA19EE9DD3003723F8 /* SKReferenceKeyParser.h in Headers */,
+				99BA8E9A19EE9C2A003723F8 /* SKGenericConverter.h in Headers */,
+				99BA8EB119EEA092003723F8 /* SKAttributeSetter.h in Headers */,
+				99BA8E9719EE9C2A003723F8 /* SKSimpleConverter.h in Headers */,
+				99BA8E8F19EE9C2A003723F8 /* SKNSArrayConverter.h in Headers */,
+				99BA8EB619EEA16D003723F8 /* SKPropertyFinder.h in Headers */,
+				99BA8E9519EE9C2A003723F8 /* SKNSURLConverter.h in Headers */,
+				99BA8EA319EE9C97003723F8 /* SKCustomParser.h in Headers */,
+				99BA8E9919EE9C2A003723F8 /* SKValueConverter.h in Headers */,
+				99BA8E9319EE9C2A003723F8 /* SKNSDateConverter.h in Headers */,
+				99BA8E7919EE9521003723F8 /* SKDynamicAttribute.h in Headers */,
+				9961920319C1A08F00C1FEA0 /* SKData+Private.h in Headers */,
+				99BA8E7D19EE9521003723F8 /* SKArrayMapping.h in Headers */,
+				99BA8E7B19EE9521003723F8 /* SKObjectMapping.h in Headers */,
+				99BA8E7F19EE9521003723F8 /* SKPropertyAggregator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99D0C26719B5A9900076FB26 /* SoapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D0C28B19B5A9900076FB26 /* Build configuration list for PBXNativeTarget "SoapKit" */;
+			buildPhases = (
+				A59DF406AA4F843EAEE9A1E1 /* Check Pods Manifest.lock */,
+				99D0C26419B5A9900076FB26 /* Sources */,
+				99D0C26519B5A9900076FB26 /* Frameworks */,
+				99D0C26619B5A9900076FB26 /* CopyFiles */,
+				99D0C2DD19B5ACC10076FB26 /* Headers */,
+				99D0C2DC19B5ABF10076FB26 /* Build Framework */,
+				C864D6388E344FF758814287 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoapKit;
+			productName = SoapKit;
+			productReference = 99D0C26819B5A9900076FB26 /* libSoapKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		99D0C27719B5A9900076FB26 /* SoapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D0C28E19B5A9900076FB26 /* Build configuration list for PBXNativeTarget "SoapKitTests" */;
+			buildPhases = (
+				99D0C27419B5A9900076FB26 /* Sources */,
+				99D0C27519B5A9900076FB26 /* Frameworks */,
+				99D0C27619B5A9900076FB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D0C27F19B5A9900076FB26 /* PBXTargetDependency */,
+			);
+			name = SoapKitTests;
+			productName = SoapKitTests;
+			productReference = 99D0C27819B5A9900076FB26 /* SoapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D0C26019B5A9900076FB26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 3Bus;
+			};
+			buildConfigurationList = 99D0C26319B5A9900076FB26 /* Build configuration list for PBXProject "SoapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99D0C25F19B5A9900076FB26;
+			productRefGroup = 99D0C26919B5A9900076FB26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D0C26719B5A9900076FB26 /* SoapKit */,
+				99D0C27719B5A9900076FB26 /* SoapKitTests */,
+				99D0C2DF19B5AD770076FB26 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D0C27619B5A9900076FB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D0C28619B5A9900076FB26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99D0C2DC19B5ABF10076FB26 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		99D0C2E519B5AD950076FB26 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+		A59DF406AA4F843EAEE9A1E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C864D6388E344FF758814287 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D0C26419B5A9900076FB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9961920219C1A08F00C1FEA0 /* SKData.m in Sources */,
+				99BA8E9219EE9C2A003723F8 /* SKNSSetConverter.m in Sources */,
+				99BA8E7A19EE9521003723F8 /* SKDynamicAttribute.m in Sources */,
+				99BA8EA419EE9C97003723F8 /* SKCustomParser.m in Sources */,
+				99BA8E9819EE9C2A003723F8 /* SKSimpleConverter.m in Sources */,
+				99B67E121B0CE5BC00A8957E /* GDataXMLNode.m in Sources */,
+				99BA8E9619EE9C2A003723F8 /* SKNSURLConverter.m in Sources */,
+				99BA8EB719EEA16D003723F8 /* SKPropertyFinder.m in Sources */,
+				99BA8E6F19EE941F003723F8 /* SKParserConfiguration.m in Sources */,
+				99BA8EAB19EE9DD3003723F8 /* SKReferenceKeyParser.m in Sources */,
+				9961921419C1B1B400C1FEA0 /* SKService.m in Sources */,
+				9963A1E519F658DC007C282B /* SKDataObjectMapping.m in Sources */,
+				99BA8E8019EE9521003723F8 /* SKPropertyAggregator.m in Sources */,
+				99BA8E9019EE9C2A003723F8 /* SKNSArrayConverter.m in Sources */,
+				99BA8EA219EE9C97003723F8 /* SKCustomInitialize.m in Sources */,
+				99BA8EB219EEA092003723F8 /* SKAttributeSetter.m in Sources */,
+				99BA8E9B19EE9C2A003723F8 /* SKGenericConverter.m in Sources */,
+				99BA8E7C19EE9521003723F8 /* SKObjectMapping.m in Sources */,
+				99BA8E9419EE9C2A003723F8 /* SKNSDateConverter.m in Sources */,
+				99BA8EAD19EE9DD3003723F8 /* SKDictionaryRearranger.m in Sources */,
+				996191FA19C19F8E00C1FEA0 /* SKRequest.m in Sources */,
+				99BA8E7E19EE9521003723F8 /* SKArrayMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D0C27419B5A9900076FB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D0C28819B5A9900076FB26 /* SoapKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D0C27F19B5A9900076FB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D0C26719B5A9900076FB26 /* SoapKit */;
+			targetProxy = 99D0C27E19B5A9900076FB26 /* PBXContainerItemProxy */;
+		};
+		99D0C2E419B5AD830076FB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D0C26719B5A9900076FB26 /* SoapKit */;
+			targetProxy = 99D0C2E319B5AD830076FB26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99D0C28419B5A9900076FB26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D0C28519B5A9900076FB26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D0C28919B5A9900076FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99D0C28A19B5A9900076FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D0C28C19B5A9900076FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E0D5B27C28F0D7E4A69C70 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/SoapKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapKit/SoapKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99D0C28D19B5A9900076FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B09F0E05B23677AB5ACDFEC /* Pods.release.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/SoapKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapKit/SoapKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		99D0C28F19B5A9900076FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapKit/SoapKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoapKitTests/SoapKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99D0C29019B5A9900076FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapKit/SoapKit-Prefix.pch";
+				INFOPLIST_FILE = "SoapKitTests/SoapKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		99D0C2E119B5AD780076FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99D0C2E219B5AD780076FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D0C26319B5A9900076FB26 /* Build configuration list for PBXProject "SoapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D0C28919B5A9900076FB26 /* Debug */,
+				99D0C28A19B5A9900076FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D0C28B19B5A9900076FB26 /* Build configuration list for PBXNativeTarget "SoapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D0C28C19B5A9900076FB26 /* Debug */,
+				99D0C28D19B5A9900076FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D0C28E19B5A9900076FB26 /* Build configuration list for PBXNativeTarget "SoapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D0C28F19B5A9900076FB26 /* Debug */,
+				99D0C29019B5A9900076FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D0C2E019B5AD780076FB26 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D0C2E119B5AD780076FB26 /* Debug */,
+				99D0C2E219B5AD780076FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D0C26019B5A9900076FB26 /* Project object */;
+}

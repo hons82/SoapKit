@@ -1,0 +1,21 @@
+PODS:
+  - ISO8601DateFormatter (0.7)
+  - SoapKit (0.0.1):
+    - SoapKit/Core (= 0.0.1)
+  - SoapKit/Core (0.0.1):
+    - ISO8601DateFormatter (~> 0.7)
+  - SoapKit/Mapping (0.0.1)
+
+DEPENDENCIES:
+  - SoapKit (from `./../../`)
+  - SoapKit/Mapping (from `./../../`)
+
+EXTERNAL SOURCES:
+  SoapKit:
+    :path: "./../../"
+
+SPEC CHECKSUMS:
+  ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
+  SoapKit: 089e5d0fb308562c9a9858a0b95f28953dd8ce71
+
+COCOAPODS: 0.37.2
