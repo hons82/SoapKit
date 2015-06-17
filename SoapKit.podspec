@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
 	end
 	s.subspec 'Mapping' do |h|
 		h.source_files			= 'SoapKit/Mapping/**/*.{h,m}'
+		h.dependency			'SoapKit/Core'
 	end
 end

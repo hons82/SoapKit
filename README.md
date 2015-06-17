@@ -1,9 +1,11 @@
 SoapKit
 ===
 
+[![Build Status](https://travis-ci.org/hons82/SoapKit.png)](https://travis-ci.org/hons82/SoapKit)
 [![Pod Version](http://img.shields.io/cocoapods/v/SoapKit.svg?style=flat)](http://cocoadocs.org/docsets/SoapKit/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/SoapKit.svg?style=flat)](http://cocoadocs.org/docsets/SoapKit/)
 [![Pod License](http://img.shields.io/cocoapods/l/SoapKit.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![Coverage Status](https://coveralls.io/repos/hons82/SoapKit/badge.svg)](https://coveralls.io/r/hons82/SoapKit)
 
 This framework aims to simplify the construction of a SOAP request as well as the parsing/mapping of the response into domain objects.
 

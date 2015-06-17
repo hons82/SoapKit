@@ -1,0 +1,3 @@
+coverage_service: coveralls
+xcodeproj: SoapKit.xcodeproj
+source_directory: SoapKit

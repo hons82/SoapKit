@@ -724,6 +724,8 @@
 			baseConfigurationReference = E5E0D5B27C28F0D7E4A69C70 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/SoapKit.dst;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoapKit/SoapKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -735,7 +737,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/lib/system",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
@@ -747,6 +749,8 @@
 			baseConfigurationReference = 0B09F0E05B23677AB5ACDFEC /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/SoapKit.dst;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoapKit/SoapKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -758,7 +762,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/lib/system",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
