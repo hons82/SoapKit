@@ -9,8 +9,8 @@
 #ifndef SoapKit_SoapKit_h
 #define SoapKit_SoapKit_h
 
-#import "SKRequest.h"
-#import "SKData.h"
-#import "SKService.h"
+#import "Soap/SKRequest.h"
+#import "Soap/SKData.h"
+#import "Soap/SKService.h"
 
 #endif
